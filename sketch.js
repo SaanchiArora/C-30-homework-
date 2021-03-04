@@ -25,8 +25,8 @@ function setup() {
   world = engine.world;
 
   base = new Ground(600,590,1200,25);
-  stand1 = new Ground(500,480,310,20);
-  stand2 = new Ground(900,250,250,20);
+  stand1 = new Ground(500,480,1200,25);
+  stand2 = new Ground(900,250,1200,25);
 
   //level one
   block1 = new Block(400,400,35,50);
